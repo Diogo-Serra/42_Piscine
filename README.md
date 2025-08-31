@@ -1,4 +1,4 @@
-# 42 Lisboa Piscine **work in progress
+# 42 Lisboa Piscine
 
 This repository contains my work from the **42 Lisboa Piscine**, an intensive 4-week bootcamp focused on learning programming fundamentals through peer-to-peer learning and project-based challenges.
 
