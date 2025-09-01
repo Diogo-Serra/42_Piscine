@@ -1,0 +1,91 @@
+Subjects
+
+1. first_word.c
+Write a program that takes a string and displays its first word, followed by a newline.
+
+A word is a section of string delimited by spaces or tabs.
+
+If the parameter is missing or empty, display only a newline.
+
+2. fizzbuzz.c
+Write a program that prints numbers from 1 to 100, each followed by a newline.
+
+For multiples of 3 print "fizz" instead of the number.
+
+For multiples of 5 print "buzz".
+
+For multiples of both 3 and 5 print "fizzbuzz".
+
+3. ft_putstr.c
+Write a function ft_putstr that displays a string on standard output.
+
+void ft_putstr(char *str);
+
+
+4. ft_strcpy.c
+Write a function that copies the string pointed to by src into the buffer dest.
+
+char *ft_strcpy(char *s1, char *s2);
+
+
+5. ft_strlen.c
+Write a function ft_strlen that returns the length of a string.
+
+int ft_strlen(char *str);
+
+
+6. ft_swap.c
+Write a function ft_swap that swaps the contents of two integers whose addresses are given as parameters.
+
+void ft_swap(int *a, int *b);
+
+
+7. repeat_alpha.c
+Write a program that takes a string and repeats each alphabetical character depending on its alphabetical index:
+
+'a' → 1, 'b' → 2, ..., 'z' → 26.
+
+Case insensitive.
+
+Non-letters are output once.
+
+End with newline.
+
+8. rev_print.c
+Write a program that takes a string and displays it in reverse, followed by a newline.
+
+If no parameter is passed, display only a newline.
+
+9. rot_13.c
+Write a program that applies the ROT13 cipher to a string, followed by a newline.
+
+Letters a–z and A–Z are rotated by 13 places.
+
+Non-letters remain unchanged.
+
+10. rotone.c
+Write a program that replaces each alphabetical character by the following one in the alphabet.
+
+'a' → 'b', 'z' → 'a'.
+
+'A' → 'B', 'Z' → 'A'.
+
+Non-letters stay the same.
+
+End with newline.
+
+11. search_and_replace.c
+Write a program that takes three parameters: a string, a character to search, and a character to replace.
+
+Replace every occurrence of the search character in the string by the replacement character.
+
+If the number of arguments is not 3, just display a newline.
+
+12. ulstr.c
+Write a program that takes a string and swaps the case of every letter:
+
+Lowercase becomes uppercase, uppercase becomes lowercase.
+
+Other characters remain unchanged.
+
+End with newline.
