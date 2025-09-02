@@ -6,7 +6,7 @@
 /*   By: diserra <diserra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 15:25:24 by diserra           #+#    #+#             */
-/*   Updated: 2025/09/02 15:42:03 by diserra          ###   ########.fr       */
+/*   Updated: 2025/09/02 15:46:17 by diserra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,6 @@ char	*ft_strdup(const char *src)
 	int		i;
 	char	*dest;
 
-	if (!src)
-		return (NULL);
 	dest = malloc(ft_strlen(src) + 1);
 	if (!dest)
 		return (NULL);
@@ -61,6 +59,7 @@ int	main(void)
 
 	dest = ft_strdup("Hello");
 	ft_putstr(dest);
+	free(dest);
 	write(1, "\n", 1);
 	return (0);
 }
