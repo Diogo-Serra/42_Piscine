@@ -18,7 +18,6 @@ The majority of this repository is dedicated to **C projects**, covering:
 - Pointers and arrays  
 - Recursion and algorithms
 
-# 42 Piscine
 > A curated map for future Pisciners — exercises, guides, rush examples, exam practice, and tools.
 
 - 🧭 Start here: Shell00 → Shell01 → C00…C13
