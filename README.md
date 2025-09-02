@@ -1,10 +1,15 @@
-# 42 Lisboa Piscine
+# 🏊 42 Lisboa Piscine — C & Shell
 
-This repository contains my work from the **42 Lisboa Piscine**, an intensive 4-week bootcamp focused on learning programming fundamentals through peer-to-peer learning and project-based challenges.
+A practical, beginner-friendly guide to the **42 Piscine (Lisboa)**: C projects, Shell exercises, rush examples, and **Exam Rank 02** prep.  
+Learning-first (no copy/paste). Short notes, gotchas, and run/test commands.
+
+---
 
 ## 📚 Contents
 - **C Programming**: syntax, pointers, memory management, recursion, algorithms  
-- **Projects**: progressively harder challenges designed to build strong problem-solving skills  
+- **Projects**: progressively harder challenges designed to build strong problem-solving skills
+- **Shell basics**: navigation, permissions, I/O redirection, simple scripts
+- **Exam prep**: small, timed functions + simulators (Rank 02)
 
 ## 🛠️ Focus
 The majority of this repository is dedicated to **C projects**, covering:
@@ -21,7 +26,7 @@ The majority of this repository is dedicated to **C projects**, covering:
 - 🧰 Tools: norminette, valgrind, gdb, Makefiles
 
 Also see my **GitHub Stars** list ➜ https://github.com/stars/Diiicode/lists/42-piscine-c-shell
- 
+
 ## 🌍 About 42
 [42](https://42.fr/en/homepage/) is a global programming school with a unique peer-to-peer, project-driven learning methodology. The Piscine is the entry test, designed to push students to their limits and foster collaboration, autonomy, and resilience.  
 
