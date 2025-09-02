@@ -1,0 +1,115 @@
+alpha_mirror
+
+Assignment name: alpha_mirror
+Expected files: alpha_mirror.c
+Allowed functions: write
+Description:
+Given one string, print it replacing each letter by its mirror in the alphabet (a↔z, b↔y, A↔Z, …). Non-letters unchanged.
+If the number of arguments is not 1, print only \n.
+
+Examples:
+
+$ ./alpha_mirror "abc XYZ 123!"
+zyx CBA 123!
+$ ./alpha_mirror
+
+do_op
+
+Assignment name: do_op
+Expected files: do_op.c
+Allowed functions: write (implement your own ft_atoi, ft_putnbr)
+Description:
+Given 3 args: nbr1 op nbr2 with op in + - * / %. Print the result as an int, then \n.
+On invalid input or division/modulo by zero, print only \n.
+
+Examples:
+
+$ ./do_op "123" "+" "77"
+200
+$ ./do_op "10" "/" "0"
+
+ft_atoi
+
+Assignment name: ft_atoi
+Expected files: ft_atoi.c
+Allowed functions: none
+Prototype: int ft_atoi(const char *str);
+Description:
+Reproduce atoi: skip spaces, handle optional sign, parse digits into int until non-digit.
+Behavior on overflow is unspecified.
+
+Examples:
+
+ft_atoi("   -42abc") -> -42
+ft_atoi("+007")     -> 7
+
+ft_strdup
+
+Assignment name: ft_strdup
+Expected files: ft_strdup.c
+Allowed functions: malloc
+Prototype: char *ft_strdup(const char *src);
+Description:
+Allocate and return a fresh copy of src (including \0). Return NULL on failure.
+
+Example:
+
+ft_strdup("Hello") -> "Hello" (newly allocated)
+
+ft_strrev
+
+Assignment name: ft_strrev
+Expected files: ft_strrev.c
+Allowed functions: none
+Prototype: char *ft_strrev(char *str);
+Description:
+Reverse the string in place and return str.
+
+Example:
+
+"abcd" -> "dcba"
+
+inter
+
+Assignment name: inter
+Expected files: inter.c
+Allowed functions: write
+Description:
+Given two strings, print the chars that appear in both, without duplicates, in the order of the first string.
+If arg count ≠ 2, print only \n.
+
+Examples:
+
+$ ./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj"
+padinto
+$ ./inter "ddf6vewg64f" "gtwthgdwthdwfteewhrtag6h4ffdhsd"
+df6ewg4
+
+is_power_of_2
+
+Assignment name: is_power_of_2
+Expected files: is_power_of_2.c
+Allowed functions: none
+Prototype: int is_power_of_2(unsigned int n);
+Description:
+Return 1 if n is a power of two, else 0. By convention, 0 is not.
+
+Examples:
+
+1 -> 1, 2 -> 1, 16 -> 1, 12 -> 0, 0 -> 0
+
+last_word
+
+Assignment name: last_word
+Expected files: last_word.c
+Allowed functions: write
+Description:
+Given one string, print its last word followed by \n. Words are sequences of non-space and non-tab.
+If arg count ≠ 1 or no word, print only \n.
+
+Examples:
+
+$ ./last_word "   lorem, ipsum   "
+ipsum
+$ ./last_word "  only-one"
+only-one
