@@ -6,7 +6,7 @@
 /*   By: diserra <diserra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/26 14:01:09 by diserra           #+#    #+#             */
-/*   Updated: 2025/08/26 14:34:19 by diserra          ###   ########.fr       */
+/*   Updated: 2025/09/02 16:45:40 by diserra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ int	ft_fibonacci(int index)
 /*
 int	main(void)
 {
-	int	index = 30;
+	int	index = 10;
 	int	i = 0;
 
-	while (i < index)
+	while (i <= index)
 	{
 		printf("Index[%d] = %d\n", i, ft_fibonacci(i));
 		i++;
