@@ -6,7 +6,7 @@
 /*   By: diserra <diserra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 17:29:18 by diserra           #+#    #+#             */
-/*   Updated: 2025/09/15 17:29:38 by diserra          ###   ########.fr       */
+/*   Updated: 2025/09/15 17:34:01 by diserra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@ static void	putstr_fd(const char *s, int fd)
 
 static int	write_all(int fd, const char *buf, ssize_t len)
 {
-	ssize_t off;
-	ssize_t w;
+	ssize_t	off;
+	ssize_t	w;
 
 	off = 0;
 	while (off < len)
@@ -41,43 +41,36 @@ static int	write_all(int fd, const char *buf, ssize_t len)
 	return (0);
 }
 
-int	main(int argc, char **argv)
+static int	display_fd(int fd)
 {
-	int		fd;
 	ssize_t	r;
 	char	buf[BUF_SIZE];
 
-	if (argc < 2)
-	{
-		putstr_fd("File name missing.\n", 2);
-		return (1);
-	}
-	if (argc > 2)
-	{
-		putstr_fd("Too many arguments.\n", 2);
-		return (1);
-	}
-	fd = open(argv[1], O_RDONLY);
-	if (fd < 0)
-	{
-		putstr_fd("Cannot read file.\n", 2);
-		return (1);
-	}
-	while ((r = read(fd, buf, BUF_SIZE)) > 0)
+	r = read(fd, buf, BUF_SIZE);
+	while (r > 0)
 	{
 		if (write_all(1, buf, r) < 0)
-		{
-			putstr_fd("Cannot read file.\n", 2);
-			close(fd);
-			return (1);
-		}
+			return (-1);
+		r = read(fd, buf, BUF_SIZE);
 	}
 	if (r < 0)
-	{
-		putstr_fd("Cannot read file.\n", 2);
-		close(fd);
-		return (1);
-	}
+		return (-1);
+	return (0);
+}
+
+int	main(int argc, char **argv)
+{
+	int	fd;
+
+	if (argc < 2)
+		return (putstr_fd("File name missing.\n", 2), 1);
+	if (argc > 2)
+		return (putstr_fd("Too many arguments.\n", 2), 1);
+	fd = open(argv[1], O_RDONLY);
+	if (fd < 0)
+		return (putstr_fd("Cannot read file.\n", 2), 1);
+	if (display_fd(fd) < 0)
+		return (close(fd), putstr_fd("Cannot read file.\n", 2), 1);
 	close(fd);
 	return (0);
 }
