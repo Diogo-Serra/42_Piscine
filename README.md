@@ -1,6 +1,6 @@
 # 🏊 42 Lisboa Piscine — C & Shell
 
-A practical, beginner-friendly guide to the **42 Piscine (Lisboa)**: C projects, Shell exercises, rush examples, and **Exam Rank 02** prep.  
+A practical, beginner-friendly guide to the **42 Piscine (Lisboa)**: C projects, Shell exercises, rush examples, and **Exams** prep.  
 Learning-first (no copy/paste). Short notes, gotchas, and run/test commands.
 
 ---
