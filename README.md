@@ -10,7 +10,7 @@ Learning-first (no copy/paste). Short notes, gotchas, and run/test commands.
 - **Projects**: progressively harder challenges designed to build strong problem-solving skills
 - **Shell basics**: navigation, permissions, I/O redirection, simple scripts
 - **Exam prep**: small, timed functions + exam simulators
-
+  
 ## 🛠️ Focus
 The majority of this repository is dedicated to **C projects**, covering:
 - String manipulation  
