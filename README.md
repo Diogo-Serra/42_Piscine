@@ -12,7 +12,7 @@
 |----------|---------|-------|
 | [**Shell**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Shell) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
 | [**C**](https://github.com/Diogo-Serra/42_Piscine/tree/main/C) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
-| [**Final Exam**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Exam) | ✅ Passed | ![Passed](https://img.shields.io/badge/Passed-blue?style=flat&color=3498db) |
+| [**Final Exam**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Exams) | ✅ Passed | ![Passed](https://img.shields.io/badge/Passed-blue?style=flat&color=3498db) |
 
 ---
 
