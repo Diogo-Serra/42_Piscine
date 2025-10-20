@@ -2,7 +2,7 @@
 
 # 🏊‍♂️ 42 School – Piscine Journey
 
-<img src="https://github.com/ayogun/42-project-badges/blob/main/badges/piscinec.png?raw=true" alt="Piscine badge" width="150"/>
+<img src="https://github.com/ayogun/42-project-badges/blob/main/badges/volunteerm.png?raw=true" alt="42 badge" width="150"/>
 
 ---
 
