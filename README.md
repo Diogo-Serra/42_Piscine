@@ -1,33 +1,54 @@
-# 🏊 42 Lisboa Piscine — C & Shell
+<div align="center">
 
-A practical, beginner-friendly guide to the **42 Piscine (Lisboa)**: C projects, Shell exercises, rush examples, and **Exams** prep.  
-Learning-first (no copy/paste). Short notes, gotchas, and run/test commands.
+# 🏊‍♂️ 42 School – Piscine Journey
+
+<img src="https://github.com/ayogun/42-project-badges/blob/main/badges/piscinec.png?raw=true" alt="Piscine badge" width="150"/>
 
 ---
 
-## 📚 Contents
-- **C Programming**: syntax, pointers, memory management, recursion, algorithms  
-- **Projects**: progressively harder challenges designed to build strong problem-solving skills
-- **Shell basics**: navigation, permissions, I/O redirection, simple scripts
-- **Exam prep**: small, timed functions + exam simulators
-  
-## 🛠️ Focus
-The majority of this repository is dedicated to **C projects**, covering:
-- String manipulation  
-- Memory allocation  
-- Pointers and arrays  
-- Recursion and algorithms
+### 🚀 My Progress
 
-> A curated map for future Pisciners — exercises, guides, rush examples, exam practice, and tools.
+| Project | Status | Badge |
+|----------|---------|-------|
+| [**Shell 00–01**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Shell) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
+| [**C 00–09**](https://github.com/Diogo-Serra/42_Piscine/tree/main/C) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
+| [**Rush 00–02**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Rush) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
+| [**Final Exam**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Exam) | ✅ Passed | ![Passed](https://img.shields.io/badge/Passed-blue?style=flat&color=3498db) |
 
-- 🧭 Start here: Shell00 → Shell01 → C00…C13
-- 🧪 Exam prep: simulators & walkthroughs
-- 🧰 Tools: norminette, valgrind, gdb, Makefiles
+---
+
+### 📚 About
+
+This repository contains all projects completed during my **Piscine C** at [42 School](https://42.fr), a month-long immersive bootcamp designed to test persistence, logic, and problem-solving under pressure.  
+The experience built my foundation in **C programming**, **Unix**, and **team collaboration**, preparing me for the **Common Core**.
+
+---
+
+### 🧰 Tech & Tools
+
+C • Shell • Make • Git • GCC • Vim • Valgrind • GDB  
+Unix • Linux • macOS  
+
+---
+
+### 🏅 Highlights
+
+- Mastered core C concepts (pointers, loops, memory, recursion)  
+- Completed all Rush weekend projects collaboratively  
+- Passed the **Final Exam** and gained entry to the Common Core  
+
+---
+
+### 📫 Connect
+
+<a href="https://profile.intra.42.fr/users/diogo-serra"><img src="https://img.shields.io/badge/42_Profile-diogo--serra-2ecc71?style=for-the-badge" alt="42 Profile"/></a>  
+<a href="https://github.com/Diogo-Serra"><img src="https://img.shields.io/badge/GitHub-Diogo--Serra-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
 
 Also see my **GitHub Stars** list ➜ https://github.com/stars/Diiicode/lists/42-piscine-c-shell
 
-## 🌍 About 42
-[42](https://42.fr/en/homepage/) is a global programming school with a unique peer-to-peer, project-driven learning methodology. The Piscine is the entry test, designed to push students to their limits and foster collaboration, autonomy, and resilience.  
-
 ---
-💡 *This repo documents my journey through the Piscine — a foundation for my growth as a software developer.*
+
+⭐️ *Completed the 42 Piscine — the first deep dive into C, logic, and teamwork. Now continuing with the Common Core!*
+
+</div>
+
