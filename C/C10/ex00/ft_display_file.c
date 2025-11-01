@@ -3,17 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_display_file.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: diserra <diserra@student.42.fr>            +#+  +:+       +#+        */
+/*   By: diosoare <diosoare@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 17:29:18 by diserra           #+#    #+#             */
-/*   Updated: 2025/09/15 18:45:21 by diserra          ###   ########.fr       */
+/*   Updated: 2025/11/01 01:21:42 by diosoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h> /* read, write, close */
 #include <fcntl.h>  /* open */
-
-#define BUF_SIZE 4096
 
 static void	putstr_fd(const char *s, int fd)
 {
@@ -44,14 +42,14 @@ static int	write_all(int fd, const char *buf, ssize_t len)
 static int	display_fd(int fd)
 {
 	ssize_t	r;
-	char	buf[BUF_SIZE];
+	char	buf[4096];
 
-	r = read(fd, buf, BUF_SIZE);
+	r = read(fd, buf, 4096);
 	while (r > 0)
 	{
 		if (write_all(1, buf, r) < 0)
 			return (-1);
-		r = read(fd, buf, BUF_SIZE);
+		r = read(fd, buf, 4096);
 	}
 	if (r < 0)
 		return (-1);

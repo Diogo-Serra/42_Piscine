@@ -1,6 +1,0 @@
-make            				# builds ft_display_file
-./ft_display_file somefile.txt  # Correct
-./ft_display_file               # -> "File name missing."
-./ft_display_file a b           # -> "Too many arguments."
-./ft_display_file no_such_file  # -> "Cannot read file."
-make fclean     				# remove binary and objects
