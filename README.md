@@ -32,9 +32,9 @@ Unix • Linux • macOS
 
 ### 🏅 Highlights
 
-- Mastered core C concepts (pointers, loops, memory, recursion)  
-- Completed all Rush weekend projects collaboratively  
-- Passed the **Final Exam** and gained entry to the Common Core  
+ Mastered core C concepts (pointers, loops, memory, recursion)  
+ Completed all Rush weekend projects collaboratively  
+ Passed the **Final Exam** and gained entry to the Common Core  
 
 ---
 
