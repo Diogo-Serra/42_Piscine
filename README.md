@@ -8,11 +8,11 @@
 
 ### 🚀 My Progress
 
-| Project | Status | Badge |
-|----------|---------|-------|
-| [**Shell**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Shell) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
-| [**C**](https://github.com/Diogo-Serra/42_Piscine/tree/main/C) | ✅ Completed | ![Completed](https://img.shields.io/badge/Completed-success?style=flat&color=2ecc71) |
-| [**Exams**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Exams) | ✅ Passed | ![Passed](https://img.shields.io/badge/Passed-blue?style=flat&color=3498db) |
+| Project | Status |
+|:-------:|:------:|
+| [**Shell**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Shell) | ✅ **Completed** |
+| [**C**](https://github.com/Diogo-Serra/42_Piscine/tree/main/C) | ✅ **Completed** |
+| [**Exams**](https://github.com/Diogo-Serra/42_Piscine/tree/main/Exams) | 🎯 **Passed** |
 
 ---
 
